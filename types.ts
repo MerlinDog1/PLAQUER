@@ -42,7 +42,7 @@ export const INITIAL_STATE: PlaqueState = {
   material: Material.BrushedBrass,
   fixing: Fixing.Caps,
   capSize: 10,
-  cornerRadius: 2,
+  cornerRadius: 0,
   border: true,
   wood: false,
   woodTone: 'light',
@@ -53,9 +53,9 @@ export const INITIAL_STATE: PlaqueState = {
 };
 
 export const AVAILABLE_FONTS = [
-  "Cinzel", "Playfair Display", "EB Garamond", "Merriweather",
-  "Montserrat", "Lato", "Open Sans", "Oswald",
-  "Roboto Slab", "Bitter",
-  "Dancing Script", "Pacifico", "Satisfy", "Caveat",
+  "Cinzel", "Playfair Display", "EB Garamond", "Merriweather", "Lora",
+  "Montserrat", "Lato", "Open Sans", "Oswald", "Raleway", "Bebas Neue",
+  "Roboto Slab", "Bitter", "Abril Fatface",
+  "Dancing Script", "Pacifico", "Satisfy", "Caveat", "Pinyon Script",
   "Allura", "Alex Brush", "Great Vibes"
 ];
